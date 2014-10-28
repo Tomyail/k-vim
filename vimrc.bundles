@@ -25,7 +25,6 @@ call vundle#rc()
 "     :BundleClean       remove plugin not in list 删除本地无用插件
 Bundle 'gmarik/vundle'
 
-
 "################### 基础 ######################
 
 " 多语言语法检查
@@ -483,5 +482,10 @@ Bundle 'Glench/Vim-Jinja2-Syntax'
 
 " Bundle "thinca/vim-quickrun"
 " nnoremap <F10> :QuickRun<cr>
+
+"##### Ruby #####
+Bundle 'tpope/vim-rails'
+"会自动插入pumvisible() ? "\" : "\",所以先不用"
+"Bundle 'tpope/vim-endwise'
 
 "------------------------------------------- end of configs --------------------------------------------
