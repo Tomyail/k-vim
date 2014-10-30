@@ -18,7 +18,7 @@
 "
 "       -> 插件配置和具体设置在vimrc.bundles中
 "==========================================
- 
+
 "==========================================
 " Initial Plugin 加载插件
 "==========================================
@@ -93,7 +93,7 @@ set t_ti= t_te=
 
 
 "- 则点击光标不会换,用于复制
-set mouse-=a             " 鼠标暂不启用, 键盘党....
+set mouse=a             " 鼠标暂不启用, 键盘党....
 
 " 修复ctrl+m 多光标操作选择的bug，但是改变了ctrl+v进行字符选中时将包含光标下的字符
 "set selection=exclusive
@@ -379,7 +379,7 @@ noremap <right> :bn<CR>
 " http://vim.wikia.com/wiki/Alternative_tab_navigation
 " http://stackoverflow.com/questions/2005214/switching-to-a-particular-tab-in-vim
 "map <C-2> 2gt
-map <leader>th :tabfirst<cr>
+map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 
 map <leader>tj :tabnext<cr>
@@ -388,7 +388,7 @@ map <leader>tn :tabnext<cr>
 map <leader>tp :tabprev<cr>
 
 map <leader>te :tabedit<cr>
-map <leader>td :tabclose<cr>
+map <leader>tc :tabclose<cr>
 map <leader>tm :tabm<cr>
 
 
