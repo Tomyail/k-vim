@@ -484,7 +484,9 @@ Bundle 'Glench/Vim-Jinja2-Syntax'
 " nnoremap <F10> :QuickRun<cr>
 
 "##### Ruby #####
-Bundle 'tpope/vim-rails'
+" Bundle 'tpope/vim-rails'
+
+Bundle 'vim-ruby/vim-ruby'
 "会自动插入pumvisible() ? "\" : "\",所以先不用"
 "Bundle 'tpope/vim-endwise'
 
