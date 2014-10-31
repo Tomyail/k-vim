@@ -475,6 +475,9 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 " FileType Settings  文件类型设置
 "==========================================
 
+"vim默认把as拓展名给了atlas,手动将其分配给actionscript
+au BufWinEnter *.as setf actionscript
+
 " Python 文件的一般设置，比如不要 tab 等
 autocmd FileType python set tabstop=4 shiftwidth=4 expandtab ai
 
